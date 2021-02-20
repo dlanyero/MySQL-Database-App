@@ -8,7 +8,7 @@ from mysql.connector import connect
 # return the first page with the services archive
 @bottle.route('/')
 def hello():
-    con = connect(user='root', password='Jesuslives@2019', database='wsoapp', host='cps301-dlany853webapp.cecf4oiulleb.us-east-1.rds.amazonaws.com')
+    con = connect(user='root', password='**********', database='wsoapp', host='cps301-dlany853webapp.cecf4oiulleb.us-east-1.rds.amazonaws.com')
     cursor = con.cursor()
 
 # select service records
